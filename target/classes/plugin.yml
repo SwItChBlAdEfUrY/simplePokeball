@@ -1,0 +1,16 @@
+name: simplePokeball
+main: org.switchbladefury.simplePokeball.simplePokeball
+version: 1.0
+author: Ryan Blue
+api-version: 1.15
+commands:
+   givepokeball:
+      description: Gives you a pokeball
+      usage: /givepokeball
+      permission: simplePokeball.basic
+      permission-message: You don't have simplePokeball.basic
+permissions:
+   simplePokeball.basic:
+      description: Allows you to use the command
+      default: op
+   
